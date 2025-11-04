@@ -11,9 +11,15 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === 'production',
   },
   
-  // Optimize images
+  // Static export for GitHub Pages
+  output: 'export',
+  
+  // Base path for GitHub Pages (repository name)
+  basePath: '/navigation-concept',
+  
+  // Optimize images - unoptimized for static export
   images: {
-    formats: ['image/avif', 'image/webp'],
+    unoptimized: true,
   },
   
   // Experimental features for better performance
