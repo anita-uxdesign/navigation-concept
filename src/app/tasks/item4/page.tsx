@@ -6,7 +6,7 @@ export default function TasksItem4Page() {
   return (
     <AppLayout subNavSections={tasksSubNav} subNavTitle="Tasks" basePath="/tasks">
       <PageContent
-        breadcrumbs={[{ label: 'Tasks' }, { label: 'All Projects' }]}
+        breadcrumbs={[{ label: 'Tasks' }, { label: 'Projects' }, { label: 'All Projects' }]}
         title="All Projects"
       />
     </AppLayout>

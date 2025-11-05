@@ -6,7 +6,7 @@ export default function SettingsPage() {
   return (
     <AppLayout subNavSections={settingsSubNav} subNavTitle="Settings" basePath="/settings">
       <PageContent
-        breadcrumbs={[{ label: 'Settings' }]}
+        breadcrumbs={[{ label: 'Settings' }, { label: 'Overview' }]}
         title="Settings"
       />
     </AppLayout>

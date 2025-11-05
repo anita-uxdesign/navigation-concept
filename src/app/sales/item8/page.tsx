@@ -6,7 +6,7 @@ export default function SalesItem8Page() {
   return (
     <AppLayout subNavSections={salesSubNav} subNavTitle="Sales" basePath="/sales">
       <PageContent
-        breadcrumbs={[{ label: 'Sales' }, { label: 'Best Sellers' }]}
+        breadcrumbs={[{ label: 'Sales' }, { label: 'Reports' }, { label: 'Best Sellers' }]}
         title="Best Sellers"
       />
     </AppLayout>

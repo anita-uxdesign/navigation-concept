@@ -6,7 +6,7 @@ export default function HelpItem4Page() {
   return (
     <AppLayout subNavSections={helpSubNav} subNavTitle="Help & Support" basePath="/help">
       <PageContent
-        breadcrumbs={[{ label: 'Help & Support' }, { label: 'Submit Ticket' }]}
+        breadcrumbs={[{ label: 'Help & Support' }, { label: 'Contact' }, { label: 'Submit Ticket' }]}
         title="Submit Ticket"
       />
     </AppLayout>

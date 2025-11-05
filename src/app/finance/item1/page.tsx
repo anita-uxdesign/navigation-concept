@@ -6,7 +6,7 @@ export default function FinanceItem1Page() {
   return (
     <AppLayout subNavSections={financeSubNav} subNavTitle="Finance" basePath="/finance">
       <PageContent
-        breadcrumbs={[{ label: 'Finance' }, { label: 'Payments' }]}
+        breadcrumbs={[{ label: 'Finance' }, { label: 'Transactions' }, { label: 'Payments' }]}
         title="Payments"
       />
     </AppLayout>

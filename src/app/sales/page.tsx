@@ -6,7 +6,7 @@ export default function SalesPage() {
   return (
     <AppLayout subNavSections={salesSubNav} subNavTitle="Sales" basePath="/sales">
       <PageContent
-        breadcrumbs={[{ label: 'Sales' }]}
+        breadcrumbs={[{ label: 'Sales' }, { label: 'Overview' }]}
         title="Sales"
       />
     </AppLayout>

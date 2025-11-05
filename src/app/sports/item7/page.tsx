@@ -6,7 +6,7 @@ export default function SportsItem7Page() {
   return (
     <AppLayout subNavSections={sportsSubNav} subNavTitle="Sports" basePath="/sports">
       <PageContent
-        breadcrumbs={[{ label: 'Sports' }, { label: 'Facilities' }]}
+        breadcrumbs={[{ label: 'Sports' }, { label: 'Management' }, { label: 'Facilities' }]}
         title="Facilities"
       />
     </AppLayout>

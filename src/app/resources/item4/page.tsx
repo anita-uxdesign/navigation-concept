@@ -6,7 +6,7 @@ export default function ResourcesItem4Page() {
   return (
     <AppLayout subNavSections={resourcesSubNav} subNavTitle="Resources" basePath="/resources">
       <PageContent
-        breadcrumbs={[{ label: 'Resources' }, { label: 'Images' }]}
+        breadcrumbs={[{ label: 'Resources' }, { label: 'Media' }, { label: 'Images' }]}
         title="Images"
       />
     </AppLayout>

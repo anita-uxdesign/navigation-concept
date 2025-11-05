@@ -6,7 +6,7 @@ export default function AnalyticsItem4Page() {
   return (
     <AppLayout subNavSections={analyticsSubNav} subNavTitle="Analytics" basePath="/analytics">
       <PageContent
-        breadcrumbs={[{ label: 'Analytics' }, { label: 'Performance' }]}
+        breadcrumbs={[{ label: 'Analytics' }, { label: 'Metrics' }, { label: 'Performance' }]}
         title="Performance"
       />
     </AppLayout>

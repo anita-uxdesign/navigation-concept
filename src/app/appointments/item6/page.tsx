@@ -6,7 +6,7 @@ export default function AppointmentsItem6Page() {
   return (
     <AppLayout subNavSections={appointmentsSubNav} subNavTitle="Appointments" basePath="/appointments">
       <PageContent
-        breadcrumbs={[{ label: 'Appointments' }, { label: 'Confirmed' }]}
+        breadcrumbs={[{ label: 'Appointments' }, { label: 'Booking' }, { label: 'Confirmed' }]}
         title="Confirmed"
       />
     </AppLayout>

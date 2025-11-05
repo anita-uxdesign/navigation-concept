@@ -6,7 +6,7 @@ export default function ClassesItem1Page() {
   return (
     <AppLayout subNavSections={classesSubNav} subNavTitle="Classes" basePath="/classes">
       <PageContent
-        breadcrumbs={[{ label: 'Classes' }, { label: 'All Classes' }]}
+        breadcrumbs={[{ label: 'Classes' }, { label: 'Classes' }, { label: 'All Classes' }]}
         title="All Classes"
       />
     </AppLayout>

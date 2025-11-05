@@ -6,7 +6,7 @@ export default function HelpItem2Page() {
   return (
     <AppLayout subNavSections={helpSubNav} subNavTitle="Help & Support" basePath="/help">
       <PageContent
-        breadcrumbs={[{ label: 'Help & Support' }, { label: 'Tutorials' }]}
+        breadcrumbs={[{ label: 'Help & Support' }, { label: 'Support' }, { label: 'Tutorials' }]}
         title="Tutorials"
       />
     </AppLayout>

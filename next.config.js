@@ -11,11 +11,11 @@ const nextConfig = {
     removeConsole: process.env.NODE_ENV === 'production',
   },
   
-  // Static export for GitHub Pages
-  output: 'export',
+  // Static export for GitHub Pages - only in production
+  ...(process.env.NODE_ENV === 'production' ? { output: 'export' } : {}),
   
-  // Base path for GitHub Pages (repository name)
-  basePath: '/navigation-concept',
+  // Base path for GitHub Pages (repository name) - only in production
+  basePath: process.env.NODE_ENV === 'production' ? '/navigation-concept' : '',
   
   // Optimize images - unoptimized for static export
   images: {

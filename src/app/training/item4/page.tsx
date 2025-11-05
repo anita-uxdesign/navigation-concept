@@ -6,7 +6,7 @@ export default function TrainingItem4Page() {
   return (
     <AppLayout subNavSections={trainingSubNav} subNavTitle="Training World" basePath="/training">
       <PageContent
-        breadcrumbs={[{ label: 'Training World' }, { label: 'Lessons' }]}
+        breadcrumbs={[{ label: 'Training World' }, { label: 'Content' }, { label: 'Lessons' }]}
         title="Lessons"
       />
     </AppLayout>

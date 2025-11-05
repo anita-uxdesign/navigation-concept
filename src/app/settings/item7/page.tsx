@@ -6,7 +6,7 @@ export default function SettingsItem7Page() {
   return (
     <AppLayout subNavSections={settingsSubNav} subNavTitle="Settings" basePath="/settings">
       <PageContent
-        breadcrumbs={[{ label: 'Settings' }, { label: 'APIs' }]}
+        breadcrumbs={[{ label: 'Settings' }, { label: 'Integration' }, { label: 'APIs' }]}
         title="APIs"
       />
     </AppLayout>

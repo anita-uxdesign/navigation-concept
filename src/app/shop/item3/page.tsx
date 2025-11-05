@@ -6,7 +6,7 @@ export default function ShopItem3Page() {
   return (
     <AppLayout subNavSections={shopSubNav} subNavTitle="Shop" basePath="/shop">
       <PageContent
-        breadcrumbs={[{ label: 'Shop' }, { label: 'Featured' }]}
+        breadcrumbs={[{ label: 'Shop' }, { label: 'Products' }, { label: 'Featured' }]}
         title="Featured"
       />
     </AppLayout>

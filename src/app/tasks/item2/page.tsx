@@ -6,7 +6,7 @@ export default function TasksItem2Page() {
   return (
     <AppLayout subNavSections={tasksSubNav} subNavTitle="Tasks" basePath="/tasks">
       <PageContent
-        breadcrumbs={[{ label: 'Tasks' }, { label: 'Team Tasks' }]}
+        breadcrumbs={[{ label: 'Tasks' }, { label: 'Tasks' }, { label: 'Team Tasks' }]}
         title="Team Tasks"
       />
     </AppLayout>

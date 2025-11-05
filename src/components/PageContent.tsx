@@ -1,13 +1,11 @@
 'use client';
 
 import React from 'react';
-import { Box, Typography, Breadcrumbs, Link } from '@mui/material';
-import { ChevronRight } from 'lucide-react';
+import { Box, Typography, Link } from '@mui/material';
 import { tokens } from '@/theme/theme';
 
 type BreadcrumbItem = {
   label: string;
-  href?: string;
 };
 
 type PageContentProps = {
@@ -21,22 +19,38 @@ export default function PageContent({ breadcrumbs, title, children }: PageConten
     <Box sx={{ p: 4 }}>
       {/* Breadcrumbs */}
       {breadcrumbs && breadcrumbs.length > 0 && (
-        <Breadcrumbs
-          separator={<ChevronRight size={16} color={tokens.colors.secondaryText} />}
-          sx={{ mb: 2 }}
-        >
+        <Box sx={{ mb: 2, display: 'flex', alignItems: 'center', gap: 1 }}>
           {breadcrumbs.map((crumb, index) => (
-            <Link
-              key={index}
-              href={crumb.href || '#'}
-              sx={{
-                fontSize: tokens.typography.body2,
-              }}
-            >
-              {crumb.label}
-            </Link>
+            <React.Fragment key={index}>
+              <Typography
+                component="span"
+                sx={{
+                  fontSize: tokens.typography.body2,
+                  color: index === breadcrumbs.length - 1 
+                    ? tokens.colors.primaryText 
+                    : tokens.colors.secondaryText,
+                  cursor: 'default',
+                  userSelect: 'none',
+                }}
+              >
+                {crumb.label}
+              </Typography>
+              {index < breadcrumbs.length - 1 && (
+                <Typography
+                  component="span"
+                  sx={{
+                    fontSize: tokens.typography.body2,
+                    color: tokens.colors.secondaryText,
+                    cursor: 'default',
+                    userSelect: 'none',
+                  }}
+                >
+                  {'>'}
+                </Typography>
+              )}
+            </React.Fragment>
           ))}
-        </Breadcrumbs>
+        </Box>
       )}
 
       {/* Page Title */}

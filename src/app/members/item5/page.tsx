@@ -6,7 +6,7 @@ export default function MembersItem5Page() {
   return (
     <AppLayout subNavSections={membersSubNav} subNavTitle="Members" basePath="/members">
       <PageContent
-        breadcrumbs={[{ label: 'Members' }, { label: 'Group Types' }]}
+        breadcrumbs={[{ label: 'Members' }, { label: 'Groups' }, { label: 'Group Types' }]}
         title="Group Types"
       />
     </AppLayout>

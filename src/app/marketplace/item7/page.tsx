@@ -6,7 +6,7 @@ export default function MarketplaceItem7Page() {
   return (
     <AppLayout subNavSections={marketplaceSubNav} subNavTitle="Marketplace" basePath="/marketplace">
       <PageContent
-        breadcrumbs={[{ label: 'Marketplace' }, { label: 'Sellers' }]}
+        breadcrumbs={[{ label: 'Marketplace' }, { label: 'Management' }, { label: 'Sellers' }]}
         title="Sellers"
       />
     </AppLayout>

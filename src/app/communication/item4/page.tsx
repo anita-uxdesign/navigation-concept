@@ -6,7 +6,7 @@ export default function CommunicationItem4Page() {
   return (
     <AppLayout subNavSections={communicationSubNav} subNavTitle="Communication" basePath="/communication">
       <PageContent
-        breadcrumbs={[{ label: 'Communication' }, { label: 'Email Campaigns' }]}
+        breadcrumbs={[{ label: 'Communication' }, { label: 'Campaigns' }, { label: 'Email Campaigns' }]}
         title="Email Campaigns"
       />
     </AppLayout>

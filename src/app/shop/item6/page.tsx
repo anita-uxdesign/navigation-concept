@@ -6,7 +6,7 @@ export default function ShopItem6Page() {
   return (
     <AppLayout subNavSections={shopSubNav} subNavTitle="Shop" basePath="/shop">
       <PageContent
-        breadcrumbs={[{ label: 'Shop' }, { label: 'Shipped' }]}
+        breadcrumbs={[{ label: 'Shop' }, { label: 'Orders' }, { label: 'Shipped' }]}
         title="Shipped"
       />
     </AppLayout>
